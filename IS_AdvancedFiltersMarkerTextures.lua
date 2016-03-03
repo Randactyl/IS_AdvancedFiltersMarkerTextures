@@ -1,6 +1,6 @@
-for name, textures in pairs(AF_TextureMap) do
+for name, textures in pairs(AdvancedFilters.textures) do
     local markerInformation = {
-        markerName = name,
+        markerName = AdvancedFilters.strings[name],
         texturePath = textures.normal,
     }
 
