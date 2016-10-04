@@ -1,7 +1,7 @@
 ## Title: Item Saver - Advanced Filters Marker Textures
 ## Author: Randactyl
-## Version: 1.1.0.1
-## APIVersion: 100016
+## Version: 1.1.0.2
+## APIVersion: 100017
 ## DependsOn: ItemSaver AdvancedFilters
 
 IS_AdvancedFiltersMarkerTextures.lua
