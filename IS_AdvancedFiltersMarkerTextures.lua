@@ -1,7 +1,7 @@
-for name, textures in pairs(AdvancedFilters.textures) do
+for name, texture in pairs(AdvancedFilters.textures) do
     local markerInformation = {
         markerName = AdvancedFilters.strings[name],
-        texturePath = textures.normal,
+        texturePath = string.format(texture, "up"),
     }
 
     ItemSaver_RegisterMarker(markerInformation)
